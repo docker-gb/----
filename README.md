@@ -13,7 +13,7 @@
 
 <div>🧩 修改 MAC 地址（临时）<div>
 <div>powershell<div>
-<div>Set-NetAdapter -Name "以太网" -MacAddress "D8B1C2D1E4A5"<div>
+<div>Set-NetAdapter -Name "以太网" -MacAddress "1AB1C2D1E4A5"<div>
 <div>"以太网" 是网卡名称，请根据实际替换；<div>
 
 <div>"A0B1C2D3E4F5" 是你要设置的新 MAC 地址，必须是 12 位十六进制数，不带冒号或横线；<div>
