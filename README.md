@@ -23,6 +23,7 @@
 <div>✅ 修改后可以再次运行 Get-NetAdapter 来验证是否生效。<div>
 
 
+国内加速域名列表：
 https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf
 https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/bogus-nxdomain.china.conf
 
