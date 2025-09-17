@@ -1,0 +1,22 @@
+tunnel: fqca-test
+credentials-file: C:\Users\micro\.cloudflared\111111111-066a-4d04-3333-444444.json
+
+protocol: http2
+origincert: D:\cloudflare-ca\origin_cert.pem
+origin-ca-pool: D:\cloudflare-ca\origin_ca_rsa_root.pem
+
+metrics: 127.0.0.1:20261
+logfile: C:\Users\micro\.cloudflared\cloudflared.log
+loglevel: info
+
+originRequest:
+  connectTimeout: 10s
+  disableChunkedEncoding: true
+  noTLSVerify: false
+  keepAliveTimeout: 30s
+  tcpKeepAlive: 30s
+
+ingress:
+  - hostname: test-1.08880.xyz
+    service: http://huggingface.co
+  - service: http_status:404
