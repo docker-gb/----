@@ -1,0 +1,31 @@
+tunnel: fqca-test
+credentials-file: C:\Users\micro\.cloudflared\55555555-95f5-666-98c4-cccc.json
+
+#quic http2 auto
+protocol: http2
+origincert: D:\cloudflare-ca\origin_cert.pem
+origin-ca-pool: D:\cloudflare-ca\origin_ca_rsa_root.pem
+
+metrics: 127.0.0.1:20248
+logfile: C:\Users\micro\.cloudflared\cloudflared.log
+loglevel: info
+
+originRequest:
+  connectTimeout: 10s
+  disableChunkedEncoding: true
+  noTLSVerify: false
+  keepAliveTimeout: 30s
+  tcpKeepAlive: 30s
+  headers:
+    Host: huggingface.co
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    Accept-Encoding: gzip, deflate, br
+    Accept-Language: zh-CN,zh;q=0.9
+    Referer: https://huggingface.co/
+    Cache-Control: no-cache
+
+ingress:
+  - hostname: fqca-test.1122.xyz
+    service: http://huggingface.co
+  - service: http_status:404

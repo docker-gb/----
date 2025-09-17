@@ -1,0 +1,18 @@
+tunnel: adobe-tunnel
+credentials-file: C:\Users\micro\.cloudflared\111111-76c7-111111-9f28-111111.json
+
+#quic http2 auto
+protocol: http2
+origincert: D:\cloudflare-ca\origin_cert.pem
+origin-ca-pool: D:\cloudflare-ca\origin_ca_rsa_root.pem
+
+metrics: 127.0.0.1:20256
+loglevel: info
+
+originRequest:
+  httpHostHeader: oooo.1122.xyz
+
+ingress:
+  - hostname: kkkk.1122.xyz
+    service: https://oooo.1122.xyz:443
+  - service: http_status:404
