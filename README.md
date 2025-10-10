@@ -27,12 +27,13 @@
 <div>https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf<div>
 <div>https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/bogus-nxdomain.china.conf<div>
 
+----------------------------------------------
 <div>fifo.info<div>
 <div>https://www.51tracking.com/country_two_code.php<div>
 <div>asn!="13335"&&country="JP"&&server=="cloudflare"<div>
 <div>asn="16509" && port="443" && cert.subject.org="Amazon"<div>
 <div>asn="31898"<div>
-
+----------------------------------------------
 
 
 
