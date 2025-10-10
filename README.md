@@ -1,7 +1,7 @@
 <div>nat64前辍：<div>
 <div>[2602:fc59:b0:64::] <div>
 <div>[2a02:898:146:64::] <div>
-<div>[2602:fc59:1:64::]1<div>
+<div>[2602:fc59:1:64::]<div>
 <div>ProxyIP：<div>
 <div>bpb.yousef.isegaro.com<div>
 <div>https://www.nslookup.io/domains/bpb.yousef.isegaro.com/dns-records/<div>
@@ -27,9 +27,11 @@
 <div>https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf<div>
 <div>https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/bogus-nxdomain.china.conf<div>
 
-
-
-
+<div>fifo.info<div>
+<div>https://www.51tracking.com/country_two_code.php<div>
+<div>asn!="13335"&&country="JP"&&server=="cloudflare"<div>
+<div>asn="16509" && port="443" && cert.subject.org="Amazon"<div>
+<div>asn="31898"<div>
 
 
 
