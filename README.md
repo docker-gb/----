@@ -6,6 +6,8 @@
 <div>bpb.yousef.isegaro.com<div>
 <div>https://www.nslookup.io/domains/bpb.yousef.isegaro.com/dns-records/<div>
 
+----------------------------------------------
+
 <div>🧩 查看当前网卡信息<div>
 <div>powershell<div>
 <div>Get-NetAdapter | Select Name, MacAddress<div>
@@ -22,6 +24,7 @@
 
 <div>✅ 修改后可以再次运行 Get-NetAdapter 来验证是否生效。<div>
 
+----------------------------------------------
 
 <div>国内加速域名列表：<div>
 <div>https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf<div>
